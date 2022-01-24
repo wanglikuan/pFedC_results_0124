@@ -1,0 +1,100 @@
+
+Number of users: 20
+Number of classes: 10
+Min # of samples per uesr: 10
+Alpha for Dirichlet Distribution: 1.0
+Ratio for Sampling Training Data: 0.5
+Reading source dataset.
+Downloading https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz to ./data/cifar-10-python.tar.gz
+Extracting ./data/cifar-10-python.tar.gz to ./data
+Loading data from storage ...
+Rearrange data by class...
+TRAIN SET:
+  Total #samples: 50000. sample shape: torch.Size([3, 32, 32])
+  #samples per class:
+ [5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000]
+Files already downloaded and verified
+Loading data from storage ...
+Rearrange data by class...
+TEST SET:
+  Total #samples: 10000. sample shape: torch.Size([3, 32, 32])
+  #samples per class:
+ [1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000]
+10 labels in total.
+Try to find valid data separation
+7 5000 1250
+3 5000 1250
+2 5000 1250
+8 5000 1250
+5 5000 1250
+6 5000 1250
+9 5000 1250
+4 5000 1250
+0 5000 1250
+1 5000 1250
+processing users...
+TRAIN #sample by user: [598, 730, 553, 423, 677, 922, 820, 637, 801, 626, 423, 633, 649, 467, 799, 746, 476, 461, 546, 513]
+Dumping train data => ./u20c10-mtl-alpha1.0-ratio0.5/train/train.pt
+598 samples in total
+c=0,n=52| c=1,n=166| c=2,n=24| c=3,n=15| c=4,n=125| c=5,n=30| c=6,n=96| c=7,n=19| c=8,n=29| c=9,n=42| 
+10 Labels/ 598 Number of training samples for user [0]:
+730 samples in total
+c=0,n=232| c=1,n=7| c=2,n=17| c=3,n=56| c=4,n=99| c=5,n=50| c=6,n=119| c=7,n=5| c=8,n=115| c=9,n=30| 
+10 Labels/ 730 Number of training samples for user [1]:
+553 samples in total
+c=0,n=8| c=1,n=12| c=2,n=3| c=3,n=30| c=4,n=51| c=5,n=84| c=6,n=157| c=7,n=72| c=8,n=13| c=9,n=123| 
+10 Labels/ 553 Number of training samples for user [2]:
+423 samples in total
+c=0,n=36| c=1,n=24| c=2,n=3| c=3,n=14| c=4,n=81| c=5,n=52| c=6,n=11| c=7,n=91| c=8,n=107| c=9,n=4| 
+10 Labels/ 423 Number of training samples for user [3]:
+677 samples in total
+c=0,n=54| c=1,n=54| c=2,n=141| c=3,n=100| c=4,n=15| c=5,n=184| c=6,n=22| c=7,n=21| c=8,n=69| c=9,n=17| 
+10 Labels/ 677 Number of training samples for user [4]:
+922 samples in total
+c=0,n=247| c=1,n=143| c=2,n=78| c=3,n=80| c=4,n=79| c=5,n=70| c=6,n=122| c=7,n=70| c=8,n=14| c=9,n=19| 
+10 Labels/ 922 Number of training samples for user [5]:
+820 samples in total
+c=0,n=52| c=1,n=26| c=2,n=75| c=3,n=65| c=4,n=1| c=5,n=4| c=6,n=14| c=7,n=167| c=8,n=23| c=9,n=393| 
+10 Labels/ 820 Number of training samples for user [6]:
+637 samples in total
+c=0,n=112| c=1,n=72| c=2,n=66| c=3,n=16| c=4,n=130| c=5,n=9| c=7,n=156| c=8,n=9| c=9,n=67| 
+9 Labels/ 637 Number of training samples for user [7]:
+801 samples in total
+c=0,n=103| c=1,n=9| c=2,n=131| c=3,n=6| c=4,n=52| c=5,n=105| c=6,n=126| c=7,n=226| c=8,n=31| c=9,n=12| 
+10 Labels/ 801 Number of training samples for user [8]:
+626 samples in total
+c=0,n=63| c=1,n=57| c=2,n=46| c=3,n=51| c=4,n=209| c=5,n=95| c=6,n=25| c=7,n=40| c=8,n=15| c=9,n=25| 
+10 Labels/ 626 Number of training samples for user [9]:
+423 samples in total
+c=0,n=10| c=1,n=18| c=2,n=141| c=3,n=47| c=4,n=47| c=5,n=13| c=6,n=33| c=7,n=33| c=8,n=66| c=9,n=15| 
+10 Labels/ 423 Number of training samples for user [10]:
+633 samples in total
+c=0,n=19| c=1,n=22| c=2,n=31| c=3,n=13| c=4,n=42| c=5,n=4| c=6,n=37| c=7,n=119| c=8,n=336| c=9,n=10| 
+10 Labels/ 633 Number of training samples for user [11]:
+649 samples in total
+c=0,n=21| c=1,n=42| c=2,n=181| c=3,n=3| c=4,n=43| c=5,n=66| c=6,n=116| c=7,n=49| c=8,n=1| c=9,n=127| 
+10 Labels/ 649 Number of training samples for user [12]:
+467 samples in total
+c=0,n=2| c=1,n=131| c=2,n=83| c=3,n=5| c=4,n=32| c=5,n=76| c=6,n=26| c=7,n=8| c=8,n=50| c=9,n=54| 
+10 Labels/ 467 Number of training samples for user [13]:
+799 samples in total
+c=0,n=36| c=1,n=125| c=2,n=21| c=3,n=293| c=4,n=13| c=5,n=11| c=6,n=138| c=7,n=28| c=8,n=55| c=9,n=79| 
+10 Labels/ 799 Number of training samples for user [14]:
+746 samples in total
+c=0,n=71| c=1,n=49| c=2,n=57| c=3,n=90| c=4,n=134| c=5,n=48| c=6,n=59| c=7,n=47| c=8,n=159| c=9,n=32| 
+10 Labels/ 746 Number of training samples for user [15]:
+476 samples in total
+c=0,n=11| c=1,n=11| c=2,n=53| c=3,n=152| c=4,n=36| c=5,n=28| c=6,n=46| c=7,n=30| c=8,n=45| c=9,n=64| 
+10 Labels/ 476 Number of training samples for user [16]:
+461 samples in total
+c=0,n=15| c=1,n=31| c=2,n=10| c=3,n=13| c=4,n=55| c=5,n=202| c=6,n=25| c=7,n=35| c=8,n=51| c=9,n=24| 
+10 Labels/ 461 Number of training samples for user [17]:
+546 samples in total
+c=0,n=92| c=1,n=64| c=2,n=62| c=3,n=191| c=4,n=1| c=5,n=19| c=6,n=17| c=7,n=30| c=8,n=41| c=9,n=29| 
+10 Labels/ 546 Number of training samples for user [18]:
+513 samples in total
+c=0,n=14| c=1,n=187| c=2,n=27| c=3,n=10| c=4,n=5| c=5,n=100| c=6,n=61| c=7,n=4| c=8,n=21| c=9,n=84| 
+10 Labels/ 513 Number of training samples for user [19]:
+TEST #sample by user: [500, 500, 500, 500, 500, 500, 500, 450, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500]
+Dumping train data => ./u20c10-mtl-alpha1.0-ratio0.5/test/test.pt
+Finish Generating User samples

@@ -1,0 +1,146 @@
+
+Number of users: 20
+Number of classes: 10
+Min # of samples per uesr: 10
+Reading source dataset.
+Files already downloaded and verified
+Loading data from storage ...
+Rearrange data by class...
+TRAIN SET:
+  Total #samples: 50000. sample shape: torch.Size([3, 32, 32])
+  #samples per class:
+ [5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000, 5000]
+Files already downloaded and verified
+Loading data from storage ...
+Rearrange data by class...
+TEST SET:
+  Total #samples: 10000. sample shape: torch.Size([3, 32, 32])
+  #samples per class:
+ [1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000]
+10 labels in total.
+processing users...
+TRAIN #sample by user: [1951, 1980, 4060, 2009, 1022, 2138, 3313, 3527, 1213, 805, 4391, 3591, 1274, 1045, 3180, 4501, 2643, 2033, 2168, 3156]
+Dumping train data => ./u20c10-mtl-class2/train/train.pt
+1951 samples in total
+c=0,n=1220| c=1,n=731| 
+2 Labels/ 1951 Number of training samples for user [0]:
+1980 samples in total
+c=0,n=1169| c=1,n=811| 
+2 Labels/ 1980 Number of training samples for user [1]:
+4060 samples in total
+c=0,n=1626| c=1,n=2434| 
+2 Labels/ 4060 Number of training samples for user [2]:
+2009 samples in total
+c=0,n=985| c=1,n=1024| 
+2 Labels/ 2009 Number of training samples for user [3]:
+1022 samples in total
+c=2,n=829| c=3,n=193| 
+2 Labels/ 1022 Number of training samples for user [4]:
+2138 samples in total
+c=2,n=1060| c=3,n=1078| 
+2 Labels/ 2138 Number of training samples for user [5]:
+3313 samples in total
+c=2,n=371| c=3,n=2942| 
+2 Labels/ 3313 Number of training samples for user [6]:
+3527 samples in total
+c=2,n=2740| c=3,n=787| 
+2 Labels/ 3527 Number of training samples for user [7]:
+1213 samples in total
+c=4,n=898| c=5,n=315| 
+2 Labels/ 1213 Number of training samples for user [8]:
+805 samples in total
+c=4,n=482| c=5,n=323| 
+2 Labels/ 805 Number of training samples for user [9]:
+4391 samples in total
+c=4,n=3415| c=5,n=976| 
+2 Labels/ 4391 Number of training samples for user [10]:
+3591 samples in total
+c=4,n=205| c=5,n=3386| 
+2 Labels/ 3591 Number of training samples for user [11]:
+1274 samples in total
+c=6,n=555| c=7,n=719| 
+2 Labels/ 1274 Number of training samples for user [12]:
+1045 samples in total
+c=6,n=442| c=7,n=603| 
+2 Labels/ 1045 Number of training samples for user [13]:
+3180 samples in total
+c=6,n=346| c=7,n=2834| 
+2 Labels/ 3180 Number of training samples for user [14]:
+4501 samples in total
+c=6,n=3657| c=7,n=844| 
+2 Labels/ 4501 Number of training samples for user [15]:
+2643 samples in total
+c=8,n=1836| c=9,n=807| 
+2 Labels/ 2643 Number of training samples for user [16]:
+2033 samples in total
+c=8,n=860| c=9,n=1173| 
+2 Labels/ 2033 Number of training samples for user [17]:
+2168 samples in total
+c=8,n=1191| c=9,n=977| 
+2 Labels/ 2168 Number of training samples for user [18]:
+3156 samples in total
+c=8,n=1113| c=9,n=2043| 
+2 Labels/ 3156 Number of training samples for user [19]:
+TEST #sample by user: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100]
+Dumping train data => ./u20c10-mtl-class2/test/test.pt
+Finish Generating User samples
+Client 0	 Size of data: 1951	 Labels:  [{0, 1}]
+		 Samples of labels:  [1220, 731, 0, 0, 0, 0, 0, 0, 0, 0]
+--------------------------------------------------
+Client 1	 Size of data: 1980	 Labels:  [{0, 1}]
+		 Samples of labels:  [1169, 811, 0, 0, 0, 0, 0, 0, 0, 0]
+--------------------------------------------------
+Client 2	 Size of data: 4060	 Labels:  [{0, 1}]
+		 Samples of labels:  [1626, 2434, 0, 0, 0, 0, 0, 0, 0, 0]
+--------------------------------------------------
+Client 3	 Size of data: 2009	 Labels:  [{0, 1}]
+		 Samples of labels:  [985, 1024, 0, 0, 0, 0, 0, 0, 0, 0]
+--------------------------------------------------
+Client 4	 Size of data: 1022	 Labels:  [{2, 3}]
+		 Samples of labels:  [0, 0, 829, 193, 0, 0, 0, 0, 0, 0]
+--------------------------------------------------
+Client 5	 Size of data: 2138	 Labels:  [{2, 3}]
+		 Samples of labels:  [0, 0, 1060, 1078, 0, 0, 0, 0, 0, 0]
+--------------------------------------------------
+Client 6	 Size of data: 3313	 Labels:  [{2, 3}]
+		 Samples of labels:  [0, 0, 371, 2942, 0, 0, 0, 0, 0, 0]
+--------------------------------------------------
+Client 7	 Size of data: 3527	 Labels:  [{2, 3}]
+		 Samples of labels:  [0, 0, 2740, 787, 0, 0, 0, 0, 0, 0]
+--------------------------------------------------
+Client 8	 Size of data: 1213	 Labels:  [{4, 5}]
+		 Samples of labels:  [0, 0, 0, 0, 898, 315, 0, 0, 0, 0]
+--------------------------------------------------
+Client 9	 Size of data: 805	 Labels:  [{4, 5}]
+		 Samples of labels:  [0, 0, 0, 0, 482, 323, 0, 0, 0, 0]
+--------------------------------------------------
+Client 10	 Size of data: 4391	 Labels:  [{4, 5}]
+		 Samples of labels:  [0, 0, 0, 0, 3415, 976, 0, 0, 0, 0]
+--------------------------------------------------
+Client 11	 Size of data: 3591	 Labels:  [{4, 5}]
+		 Samples of labels:  [0, 0, 0, 0, 205, 3386, 0, 0, 0, 0]
+--------------------------------------------------
+Client 12	 Size of data: 1274	 Labels:  [{6, 7}]
+		 Samples of labels:  [0, 0, 0, 0, 0, 0, 555, 719, 0, 0]
+--------------------------------------------------
+Client 13	 Size of data: 1045	 Labels:  [{6, 7}]
+		 Samples of labels:  [0, 0, 0, 0, 0, 0, 442, 603, 0, 0]
+--------------------------------------------------
+Client 14	 Size of data: 3180	 Labels:  [{6, 7}]
+		 Samples of labels:  [0, 0, 0, 0, 0, 0, 346, 2834, 0, 0]
+--------------------------------------------------
+Client 15	 Size of data: 4501	 Labels:  [{6, 7}]
+		 Samples of labels:  [0, 0, 0, 0, 0, 0, 3657, 844, 0, 0]
+--------------------------------------------------
+Client 16	 Size of data: 2643	 Labels:  [{8, 9}]
+		 Samples of labels:  [0, 0, 0, 0, 0, 0, 0, 0, 1836, 807]
+--------------------------------------------------
+Client 17	 Size of data: 2033	 Labels:  [{8, 9}]
+		 Samples of labels:  [0, 0, 0, 0, 0, 0, 0, 0, 860, 1173]
+--------------------------------------------------
+Client 18	 Size of data: 2168	 Labels:  [{8, 9}]
+		 Samples of labels:  [0, 0, 0, 0, 0, 0, 0, 0, 1191, 977]
+--------------------------------------------------
+Client 19	 Size of data: 3156	 Labels:  [{8, 9}]
+		 Samples of labels:  [0, 0, 0, 0, 0, 0, 0, 0, 1113, 2043]
+--------------------------------------------------
