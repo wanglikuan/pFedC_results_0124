@@ -1,0 +1,273 @@
+
+Number of users: 20
+Number of classes: 10
+Min # of samples per uesr: 10
+Alpha for Dirichlet Distribution: 0.05
+Ratio for Sampling Training Data: 0.5
+Reading source dataset.
+Loading data from storage ...
+Rearrange data by class...
+TRAIN SET:
+  Total #samples: 60000. sample shape: torch.Size([1, 28, 28])
+  #samples per class:
+ [5923, 6742, 5958, 6131, 5842, 5421, 5918, 6265, 5851, 5949]
+Loading data from storage ...
+Rearrange data by class...
+TEST SET:
+  Total #samples: 10000. sample shape: torch.Size([1, 28, 28])
+  #samples per class:
+ [980, 1135, 1032, 1010, 982, 892, 958, 1028, 974, 1009]
+10 labels in total.
+Try to find valid data separation
+7 6265 1500
+3 6131 1500
+2 5958 1500
+8 5851 1500
+5 5421 1500
+6 5918 1500
+9 5949 1500
+4 5842 1500
+0 5923 1500
+1 6742 1500
+Try to find valid data separation
+7 6265 1500
+3 6131 1500
+2 5958 1500
+8 5851 1500
+5 5421 1500
+6 5918 1500
+9 5949 1500
+4 5842 1500
+0 5923 1500
+1 6742 1500
+Try to find valid data separation
+7 6265 1500
+3 6131 1500
+2 5958 1500
+8 5851 1500
+5 5421 1500
+6 5918 1500
+9 5949 1500
+4 5842 1500
+0 5923 1500
+1 6742 1500
+Try to find valid data separation
+7 6265 1500
+3 6131 1500
+2 5958 1500
+8 5851 1500
+5 5421 1500
+6 5918 1500
+9 5949 1500
+4 5842 1500
+0 5923 1500
+1 6742 1500
+Try to find valid data separation
+7 6265 1500
+3 6131 1500
+2 5958 1500
+8 5851 1500
+5 5421 1500
+6 5918 1500
+9 5949 1500
+4 5842 1500
+0 5923 1500
+1 6742 1500
+Try to find valid data separation
+7 6265 1500
+3 6131 1500
+2 5958 1500
+8 5851 1500
+5 5421 1500
+6 5918 1500
+9 5949 1500
+4 5842 1500
+0 5923 1500
+1 6742 1500
+Try to find valid data separation
+7 6265 1500
+3 6131 1500
+2 5958 1500
+8 5851 1500
+5 5421 1500
+6 5918 1500
+9 5949 1500
+4 5842 1500
+0 5923 1500
+1 6742 1500
+Try to find valid data separation
+7 6265 1500
+3 6131 1500
+2 5958 1500
+8 5851 1500
+5 5421 1500
+6 5918 1500
+9 5949 1500
+4 5842 1500
+0 5923 1500
+1 6742 1500
+Try to find valid data separation
+7 6265 1500
+3 6131 1500
+2 5958 1500
+8 5851 1500
+5 5421 1500
+6 5918 1500
+9 5949 1500
+4 5842 1500
+0 5923 1500
+1 6742 1500
+Try to find valid data separation
+7 6265 1500
+3 6131 1500
+2 5958 1500
+8 5851 1500
+5 5421 1500
+6 5918 1500
+9 5949 1500
+4 5842 1500
+0 5923 1500
+1 6742 1500
+Try to find valid data separation
+7 6265 1500
+3 6131 1500
+2 5958 1500
+8 5851 1500
+5 5421 1500
+6 5918 1500
+9 5949 1500
+4 5842 1500
+0 5923 1500
+1 6742 1500
+Try to find valid data separation
+7 6265 1500
+3 6131 1500
+2 5958 1500
+8 5851 1500
+5 5421 1500
+6 5918 1500
+9 5949 1500
+4 5842 1500
+0 5923 1500
+1 6742 1500
+Try to find valid data separation
+7 6265 1500
+3 6131 1500
+2 5958 1500
+8 5851 1500
+5 5421 1500
+6 5918 1500
+9 5949 1500
+4 5842 1500
+0 5923 1500
+1 6742 1500
+Try to find valid data separation
+7 6265 1500
+3 6131 1500
+2 5958 1500
+8 5851 1500
+5 5421 1500
+6 5918 1500
+9 5949 1500
+4 5842 1500
+0 5923 1500
+1 6742 1500
+Try to find valid data separation
+7 6265 1500
+3 6131 1500
+2 5958 1500
+8 5851 1500
+5 5421 1500
+6 5918 1500
+9 5949 1500
+4 5842 1500
+0 5923 1500
+1 6742 1500
+Try to find valid data separation
+7 6265 1500
+3 6131 1500
+2 5958 1500
+8 5851 1500
+5 5421 1500
+6 5918 1500
+9 5949 1500
+4 5842 1500
+0 5923 1500
+1 6742 1500
+Try to find valid data separation
+7 6265 1500
+3 6131 1500
+2 5958 1500
+8 5851 1500
+5 5421 1500
+6 5918 1500
+9 5949 1500
+4 5842 1500
+0 5923 1500
+1 6742 1500
+processing users...
+TRAIN #sample by user: [507, 285, 270, 146, 1270, 891, 2269, 385, 2008, 867, 928, 268, 196, 1144, 356, 809, 43, 1401, 846, 111]
+Dumping train data => ./ou20c10-alpha0.05-ratio0.5/train/train.pt
+507 samples in total
+c=1,n=24| c=2,n=28| c=6,n=455| 
+3 Labels/ 507 Number of training samples for user [0]:
+285 samples in total
+c=0,n=46| c=2,n=11| c=4,n=7| c=5,n=221| 
+4 Labels/ 285 Number of training samples for user [1]:
+270 samples in total
+c=1,n=197| c=6,n=49| c=8,n=24| 
+3 Labels/ 270 Number of training samples for user [2]:
+146 samples in total
+c=6,n=39| c=7,n=107| 
+2 Labels/ 146 Number of training samples for user [3]:
+1270 samples in total
+c=0,n=1| c=1,n=1257| c=2,n=12| 
+3 Labels/ 1270 Number of training samples for user [4]:
+891 samples in total
+c=1,n=1| c=3,n=104| c=4,n=49| c=6,n=93| c=8,n=644| 
+5 Labels/ 891 Number of training samples for user [5]:
+2269 samples in total
+c=0,n=1427| c=2,n=750| c=5,n=48| c=8,n=44| 
+4 Labels/ 2269 Number of training samples for user [6]:
+385 samples in total
+c=0,n=1| c=4,n=370| c=7,n=12| c=9,n=2| 
+4 Labels/ 385 Number of training samples for user [7]:
+2008 samples in total
+c=2,n=4| c=3,n=707| c=5,n=10| c=9,n=1287| 
+4 Labels/ 2008 Number of training samples for user [8]:
+867 samples in total
+c=4,n=849| c=5,n=10| c=7,n=1| c=8,n=7| 
+4 Labels/ 867 Number of training samples for user [9]:
+928 samples in total
+c=4,n=58| c=6,n=861| c=7,n=2| c=9,n=7| 
+4 Labels/ 928 Number of training samples for user [10]:
+268 samples in total
+c=1,n=20| c=2,n=60| c=3,n=178| c=5,n=1| c=6,n=1| c=7,n=7| c=9,n=1| 
+7 Labels/ 268 Number of training samples for user [11]:
+196 samples in total
+c=0,n=22| c=3,n=172| c=5,n=2| 
+3 Labels/ 196 Number of training samples for user [12]:
+1144 samples in total
+c=2,n=1| c=3,n=205| c=7,n=927| c=8,n=11| 
+4 Labels/ 1144 Number of training samples for user [13]:
+356 samples in total
+c=2,n=7| c=3,n=89| c=4,n=166| c=5,n=44| c=8,n=50| 
+5 Labels/ 356 Number of training samples for user [14]:
+809 samples in total
+c=2,n=309| c=3,n=44| c=7,n=358| c=9,n=98| 
+4 Labels/ 809 Number of training samples for user [15]:
+43 samples in total
+c=7,n=37| c=9,n=6| 
+2 Labels/ 43 Number of training samples for user [16]:
+1401 samples in total
+c=2,n=317| c=5,n=1084| 
+2 Labels/ 1401 Number of training samples for user [17]:
+846 samples in total
+c=1,n=1| c=5,n=79| c=6,n=1| c=7,n=48| c=8,n=717| 
+5 Labels/ 846 Number of training samples for user [18]:
+111 samples in total
+c=0,n=3| c=2,n=1| c=3,n=1| c=4,n=1| c=5,n=1| c=6,n=1| c=7,n=1| c=8,n=3| c=9,n=99| 
+9 Labels/ 111 Number of training samples for user [19]:
+TEST #sample by user: [154, 193, 151, 98, 156, 250, 192, 199, 195, 192, 197, 349, 143, 200, 242, 202, 101, 95, 246, 439]
+Dumping train data => ./ou20c10-alpha0.05-ratio0.5/test/test.pt
+Finish Generating User samples

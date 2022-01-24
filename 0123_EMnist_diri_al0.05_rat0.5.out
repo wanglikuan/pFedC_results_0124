@@ -1,0 +1,262 @@
+
+Number of users: 20
+Number of classes: 10
+Min # of samples per uesr: 10
+Alpha for Dirichlet Distribution: 0.05
+Ratio for Sampling Training Data: 0.5
+Reading source dataset.
+Loading data from storage ...
+Rearrange data by class...
+TRAIN SET:
+  Total #samples: 124800. sample shape: torch.Size([1, 28, 28])
+  #samples per class:
+ [4800, 4800, 4800, 4800, 4800, 4800, 4800, 4800, 4800, 4800]
+Loading data from storage ...
+Rearrange data by class...
+TEST SET:
+  Total #samples: 20800. sample shape: torch.Size([1, 28, 28])
+  #samples per class:
+ [800, 800, 800, 800, 800, 800, 800, 800, 800, 800]
+10 labels in total.
+Try to find valid data separation
+7 4800 2400
+3 4800 2400
+2 4800 2400
+8 4800 2400
+5 4800 2400
+6 4800 2400
+9 4800 2400
+4 4800 2400
+0 4800 2400
+1 4800 2400
+Try to find valid data separation
+7 4800 2400
+3 4800 2400
+2 4800 2400
+8 4800 2400
+5 4800 2400
+6 4800 2400
+9 4800 2400
+4 4800 2400
+0 4800 2400
+1 4800 2400
+Try to find valid data separation
+7 4800 2400
+3 4800 2400
+2 4800 2400
+8 4800 2400
+5 4800 2400
+6 4800 2400
+9 4800 2400
+4 4800 2400
+0 4800 2400
+1 4800 2400
+Try to find valid data separation
+7 4800 2400
+3 4800 2400
+2 4800 2400
+8 4800 2400
+5 4800 2400
+6 4800 2400
+9 4800 2400
+4 4800 2400
+0 4800 2400
+1 4800 2400
+Try to find valid data separation
+7 4800 2400
+3 4800 2400
+2 4800 2400
+8 4800 2400
+5 4800 2400
+6 4800 2400
+9 4800 2400
+4 4800 2400
+0 4800 2400
+1 4800 2400
+Try to find valid data separation
+7 4800 2400
+3 4800 2400
+2 4800 2400
+8 4800 2400
+5 4800 2400
+6 4800 2400
+9 4800 2400
+4 4800 2400
+0 4800 2400
+1 4800 2400
+Try to find valid data separation
+7 4800 2400
+3 4800 2400
+2 4800 2400
+8 4800 2400
+5 4800 2400
+6 4800 2400
+9 4800 2400
+4 4800 2400
+0 4800 2400
+1 4800 2400
+Try to find valid data separation
+7 4800 2400
+3 4800 2400
+2 4800 2400
+8 4800 2400
+5 4800 2400
+6 4800 2400
+9 4800 2400
+4 4800 2400
+0 4800 2400
+1 4800 2400
+Try to find valid data separation
+7 4800 2400
+3 4800 2400
+2 4800 2400
+8 4800 2400
+5 4800 2400
+6 4800 2400
+9 4800 2400
+4 4800 2400
+0 4800 2400
+1 4800 2400
+Try to find valid data separation
+7 4800 2400
+3 4800 2400
+2 4800 2400
+8 4800 2400
+5 4800 2400
+6 4800 2400
+9 4800 2400
+4 4800 2400
+0 4800 2400
+1 4800 2400
+Try to find valid data separation
+7 4800 2400
+3 4800 2400
+2 4800 2400
+8 4800 2400
+5 4800 2400
+6 4800 2400
+9 4800 2400
+4 4800 2400
+0 4800 2400
+1 4800 2400
+Try to find valid data separation
+7 4800 2400
+3 4800 2400
+2 4800 2400
+8 4800 2400
+5 4800 2400
+6 4800 2400
+9 4800 2400
+4 4800 2400
+0 4800 2400
+1 4800 2400
+Try to find valid data separation
+7 4800 2400
+3 4800 2400
+2 4800 2400
+8 4800 2400
+5 4800 2400
+6 4800 2400
+9 4800 2400
+4 4800 2400
+0 4800 2400
+1 4800 2400
+Try to find valid data separation
+7 4800 2400
+3 4800 2400
+2 4800 2400
+8 4800 2400
+5 4800 2400
+6 4800 2400
+9 4800 2400
+4 4800 2400
+0 4800 2400
+1 4800 2400
+Try to find valid data separation
+7 4800 2400
+3 4800 2400
+2 4800 2400
+8 4800 2400
+5 4800 2400
+6 4800 2400
+9 4800 2400
+4 4800 2400
+0 4800 2400
+1 4800 2400
+Try to find valid data separation
+7 4800 2400
+3 4800 2400
+2 4800 2400
+8 4800 2400
+5 4800 2400
+6 4800 2400
+9 4800 2400
+4 4800 2400
+0 4800 2400
+1 4800 2400
+processing users...
+TRAIN #sample by user: [2573, 456, 734, 4323, 896, 42, 3973, 387, 1288, 148, 49, 230, 612, 63, 1617, 3738, 651, 1976, 164, 80]
+Dumping train data => ./u20c10-mtl-alpha0.05-ratio0.5/train/train.pt
+2573 samples in total
+c=0,n=768| c=1,n=3| c=2,n=234| c=4,n=808| c=5,n=85| c=6,n=12| c=7,n=663| 
+7 Labels/ 2573 Number of training samples for user [0]:
+456 samples in total
+c=0,n=296| c=2,n=9| c=8,n=23| c=9,n=128| 
+4 Labels/ 456 Number of training samples for user [1]:
+734 samples in total
+c=3,n=485| c=4,n=217| c=7,n=32| 
+3 Labels/ 734 Number of training samples for user [2]:
+4323 samples in total
+c=6,n=2045| c=7,n=35| c=9,n=2243| 
+3 Labels/ 4323 Number of training samples for user [3]:
+896 samples in total
+c=4,n=482| c=6,n=266| c=7,n=1| c=8,n=147| 
+4 Labels/ 896 Number of training samples for user [4]:
+42 samples in total
+c=3,n=27| c=5,n=7| c=7,n=1| c=8,n=7| 
+4 Labels/ 42 Number of training samples for user [5]:
+3973 samples in total
+c=2,n=1794| c=5,n=2167| c=7,n=1| c=8,n=11| 
+4 Labels/ 3973 Number of training samples for user [6]:
+387 samples in total
+c=0,n=180| c=2,n=198| c=7,n=9| 
+3 Labels/ 387 Number of training samples for user [7]:
+1288 samples in total
+c=1,n=35| c=4,n=550| c=5,n=1| c=7,n=67| c=8,n=635| 
+5 Labels/ 1288 Number of training samples for user [8]:
+148 samples in total
+c=3,n=57| c=5,n=89| c=6,n=2| 
+3 Labels/ 148 Number of training samples for user [9]:
+49 samples in total
+c=4,n=27| c=9,n=22| 
+2 Labels/ 49 Number of training samples for user [10]:
+230 samples in total
+c=2,n=14| c=4,n=214| c=6,n=2| 
+3 Labels/ 230 Number of training samples for user [11]:
+612 samples in total
+c=0,n=508| c=4,n=53| c=5,n=50| c=9,n=1| 
+4 Labels/ 612 Number of training samples for user [12]:
+63 samples in total
+c=2,n=4| c=4,n=20| c=8,n=39| 
+3 Labels/ 63 Number of training samples for user [13]:
+1617 samples in total
+c=4,n=27| c=7,n=1590| 
+2 Labels/ 1617 Number of training samples for user [14]:
+3738 samples in total
+c=1,n=2217| c=2,n=1| c=8,n=1520| 
+3 Labels/ 3738 Number of training samples for user [15]:
+651 samples in total
+c=0,n=647| c=9,n=4| 
+2 Labels/ 651 Number of training samples for user [16]:
+1976 samples in total
+c=1,n=144| c=2,n=6| c=3,n=1807| c=6,n=18| c=9,n=1| 
+5 Labels/ 1976 Number of training samples for user [17]:
+164 samples in total
+c=2,n=139| c=3,n=7| c=8,n=18| 
+3 Labels/ 164 Number of training samples for user [18]:
+80 samples in total
+c=0,n=1| c=1,n=1| c=2,n=1| c=3,n=17| c=4,n=2| c=5,n=1| c=6,n=55| c=7,n=1| c=9,n=1| 
+9 Labels/ 80 Number of training samples for user [19]:
+TEST #sample by user: [280, 160, 120, 120, 160, 160, 160, 120, 200, 120, 80, 120, 160, 120, 80, 120, 80, 200, 120, 360]
+Dumping train data => ./u20c10-mtl-alpha0.05-ratio0.5/test/test.pt
+Finish Generating User samples

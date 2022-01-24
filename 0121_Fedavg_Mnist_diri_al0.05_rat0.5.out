@@ -1,0 +1,55 @@
+==================================================
+Algorithm: FedAvg
+Local batch size: 32
+Local steps: 5
+Local learing rate: 0.005
+Total number of clients: 20
+Clients join in each round: 20
+Client drop rate: 0.0
+Time select: False
+Time threthold: 10000
+Global rounds: 1000
+Running times: 1
+Dataset: Mnist-alpha0.05-ratio0.5
+Local model: cnn
+Using device: cuda
+Cuda device id: 0
+==================================================
+
+============= Running time: 0th =============
+Creating server and clients ...
+
+Join clients / total clients: 20 / 20
+Finished creating server and clients.
+
+-------------Round number: 0-------------
+
+Evaluate global model
+Average Test Accurancy: 0.0930
+Average Train Accurancy: 0.1121
+Average Train Loss: 2.2926
+----------------------------------------
+client Accurancy:  0.96
+client Accurancy:  0.0
+client Accurancy:  0.05327868852459016
+client Accurancy:  0.0
+client Accurancy:  0.3157894736842105
+client Accurancy:  0.3197969543147208
+client Accurancy:  0.0
+client Accurancy:  0.0
+client Accurancy:  0.0
+client Accurancy:  0.0
+client Accurancy:  0.0
+client Accurancy:  0.036585365853658534
+client Accurancy:  0.3972602739726027
+client Accurancy:  0.10067114093959731
+client Accurancy:  0.11428571428571428
+client Accurancy:  0.0
+client Accurancy:  0.0
+client Accurancy:  0.0
+client Accurancy:  0.035856573705179286
+client Accurancy:  0.14040114613180515
+-------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+-------------------------------------------------------
